@@ -1,0 +1,132 @@
+<div class="row"> <!-- inicio para colocar em sentido de linha --->
+<div class="col-3"><!-- indicar que vai pegar apenas uma coluna  --->
+<div [ngClass]="{'border border-danger': media < 7,'border border-success': media >=7}" class="card h-100" style="width: 15rem"> <!-- declarando que é um card e formatação img ---> <!--Condicional para mudar a cor de acordo com a média-->
+  <img [src]="imagem" class="card-img-top" alt="estudante João"/>
+  <div class="card-body">
+    <h5 class="card-title" class="mx-auto text-center">
+      {{ Nome }}
+    </h5>
+    <p class="text-center">A média do aluno foi {{media}}</p>
+    <div class="text-center"><!-- centro pro badge e inicio do ternário --->
+      <span *ngIf="media >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+      <ng-template #elseReprovado >
+       <span class="badge badge-danger">Reprovado</span>
+      </ng-template>
+    </div> <!-- Fim da config do badge --->
+  </div><!--Fim do conteudo do card-->
+</div><!--Fim do card inteiro-->
+</div><!--Fim da primeira coluna-->
+
+<div class="col-3"> <!-- indicar que vai pegar apenas uma coluna  --->
+<div [ngClass]="{'border border-danger': media2 < 7,'border border-success': media2 >= 7}" class="card h-100" style="width: 15rem"> <!--Condicional para mudar a cor de acordo com a média-->
+  <img [src]="imagem2" class="card-img-top" alt="estudante Maria"/>
+  <div class="card-body">
+    <h5 class="card-title" class="mx-auto text-center">
+      {{ Nome2 }}
+    </h5>
+    <p class="text-center">A média da aluna foi {{media2}}</p>
+    <div class="text-center">
+      <span *ngIf="media2 >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+      <ng-template #elseReprovado >
+       <span class="badge badge-danger">Reprovado</span>
+      </ng-template>
+    </div><!--Fim do badge-->
+  </div><!--Fim do corpo do card-->
+</div><!--Fim do card inteiro-->
+</div><!--Fim da coluna-->
+
+<div class="col-3"> <!-- indicar que vai pegar apenas uma coluna  --->
+<div [ngClass]="{'border border-danger': media3 < 7,'border border-success': media3 >= 7}" class="card h-100" style="width: 15rem"> <!--Condicional para mudar a cor de acordo com a média-->
+  <img [src]="imagem3" class="card-img-top" alt="estudante Maria"/>
+  <div class="card-body">
+    <h5 class="card-title" class="mx-auto text-center">
+      {{ Nome3 }}
+    </h5>
+    <p class="text-center">A média da aluna foi {{media3}}</p>
+    <div class="text-center">
+      <span *ngIf="media3 >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+      <ng-template #elseReprovado >
+       <span class="badge badge-danger">Reprovado</span>
+      </ng-template>
+    </div><!--Fim do badge-->
+  </div><!--Fim do corpo do card-->
+</div><!--Fim do card inteiro-->
+</div><!--Fim da coluna-->
+
+<div class="col-3"> <!-- indicar que vai pegar apenas uma coluna  --->
+<div [ngClass]="{'border border-danger': media14 < 7,'border border-success': media14 >= 7}" class="card h-100" style="width: 15rem"> <!--Condicional para mudar a cor de acordo com a média-->
+  <img [src]="imagem4" class="card-img-top" alt="estudante Maria"/>
+  <div class="card-body">
+    <h5 class="card-title" class="mx-auto text-center">
+      {{ Nome77 }}
+    </h5>
+    <p class="text-center">A média da aluna foi {{media14}}</p>
+    <div class="text-center">
+      <span *ngIf="media14 >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+      <ng-template #elseReprovado >
+       <span class="badge badge-danger">Reprovado</span>
+      </ng-template>
+    </div><!--Fim do badge-->
+  </div><!--Fim do corpo do card-->
+</div><!--Fim do card inteiro-->
+</div><!--Fim da coluna-->
+</div><!--Fim do Row inteiro-->
+
+<div class="row"> <!-- inicio para colocar em sentido de linha --->
+
+
+  <div class="col-3"><!-- indicar que vai pegar apenas uma coluna  --->
+    <div [ngClass]="{'border border-danger': media7 < 7,'border border-success': media7 >=7}" class="card h-100" style="width: 15rem"> <!-- declarando que é um card e formatação img ---> <!--Condicional para mudar a cor de acordo com a média-->
+      <img [src]="imagem7" class="card-img-top" alt="estudante João"/>
+      <div class="card-body">
+        <h5 class="card-title" class="mx-auto text-center">
+          {{ Nome111 }}
+        </h5>
+        <p class="text-center">A média do aluno foi {{media7}}</p>
+        <div class="text-center"><!-- centro pro badge e inicio do ternário --->
+          <span *ngIf="media7 >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+          <ng-template #elseReprovado >
+           <span class="badge badge-danger">Reprovado</span>
+          </ng-template>
+        </div> <!-- Fim da config do badge --->
+      </div><!--Fim do conteudo do card-->
+    </div><!--Fim do card inteiro-->
+    </div><!--Fim da primeira coluna-->
+    <div class="col-3"><!-- indicar que vai pegar apenas uma coluna  --->
+      <div [ngClass]="{'border border-danger': media8 < 7,'border border-success': media8 >=7}" class="card h-100" style="width: 15rem"> <!-- declarando que é um card e formatação img ---> <!--Condicional para mudar a cor de acordo com a média-->
+        <img [src]="imagem8" class="card-img-top" alt="estudante João"/>
+        <div class="card-body">
+          <h5 class="card-title" class="mx-auto text-center">
+            {{ Nome221 }}
+          </h5>
+          <p class="text-center">A média do aluno foi {{media}}</p>
+          <div class="text-center"><!-- centro pro badge e inicio do ternário --->
+            <span *ngIf="media8 >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+            <ng-template #elseReprovado >
+             <span class="badge badge-danger">Reprovado</span>
+            </ng-template>
+          </div> <!-- Fim da config do badge --->
+        </div><!--Fim do conteudo do card-->
+      </div><!--Fim do card inteiro-->
+      </div><!--Fim da primeira coluna-->
+      <div class="col-3"><!-- indicar que vai pegar apenas uma coluna  --->
+        <div [ngClass]="{'border border-danger': media < 7,'border border-success': media >=7}" class="card h-100" style="width: 15rem"> <!-- declarando que é um card e formatação img ---> <!--Condicional para mudar a cor de acordo com a média-->
+          <img [src]="imagem5" class="card-img-top" alt="estudante João"/>
+          <div class="card-body">
+            <h5 class="card-title" class="mx-auto text-center">
+              {{ Nome }}
+            </h5>
+            <p class="text-center">A média do aluno foi {{media}}</p>
+            <div class="text-center"><!-- centro pro badge e inicio do ternário --->
+              <span *ngIf="media >= 7; else elseReprovado" class="badge badge-success">Aprovado</span>
+              <ng-template #elseReprovado >
+               <span class="badge badge-danger">Reprovado</span>
+              </ng-template>
+            </div> <!-- Fim da config do badge --->
+          </div><!--Fim do conteudo do card-->
+        </div><!--Fim do card inteiro-->
+        </div><!--Fim da primeira coluna-->
+  </div>
+
+
+<router-outlet></router-outlet>
