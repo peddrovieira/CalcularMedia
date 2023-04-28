@@ -30,7 +30,7 @@ export class AppComponent {
   Nome3 : string = "Stan";
   nota33 : number = 7;
   nota44 : number = 6;
-  nota55 : number = 2;
+  nota55 : number = 4;
   nota66 : number = 10;
   media3 : number = (this.nota33 + this.nota44 + this.nota55+ this.nota66)/4
   imagem3 : string = "../assets/img/stan.jpg"
@@ -47,10 +47,10 @@ export class AppComponent {
 
   CodigoRMA5: number = 2204657;
   Nome5 : string = "Token";
-  nota9 : number = 4;
+  nota9 : number = 7;
   nota10 : number = 8;
   nota12 : number = 7;
-  nota13 : number = 2;
+  nota13 : number = 6;
   media14 : number = (this.nota9 + this.nota10 + this.nota12 + this.nota13)/4
   imagem5 : string = "../assets/img/token.jpg"
 
